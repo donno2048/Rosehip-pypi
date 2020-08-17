@@ -24,9 +24,11 @@ open cmd, then:
 ```
 to start just use:
 ```python
->>> from rosehip import pc as init
+>>> from Rosehip import pc as init
 >>> init()
 ```
+<!--the Rosehip was miss written as rosehip!!!!!!!!!!!!!!!-->
+
 in the python command line
 ###### (you can open it using `win`+`R` then type `python`)
 If you're using a laptop replace 'pc' with 'laptop'
