@@ -7,7 +7,7 @@ setup(
     long_description='\n'.join([i.replace('\n', '') for i in open('README.md').readlines()[1:]]),
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    url='https://github.com/donno2048/Rosehip',
+    url='https://github.com/donno2048/Rosehip-pypi',
     package_data={'rosehip': ['Rosehip'],},
     license='MIT',
     author='Elisha Hollander',
