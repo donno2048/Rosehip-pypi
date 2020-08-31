@@ -1,4 +1,4 @@
-Released Operational System by Elisha Hollander Implemented Python
+Reliable Operating System by Elisha Hollander Implemented Python
 # Rosehip
 ```diff
 - this only works on windows
