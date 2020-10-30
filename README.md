@@ -14,6 +14,10 @@ open cmd, then:
 ```
 > pip install rosehip
 ```
+or you can install from GitHub:
+```
+> pip install git+https://github.com/donno2048/Rosehip-pypi
+```
 ##### else:
 
 ```
