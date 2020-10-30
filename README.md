@@ -81,4 +81,3 @@ if you want to create .exe version yourself you need to install [cx_Freeze](http
 from cx_Freeze import Executable,setup
 setup(name='Rosehip',options={'build_exe':{'packages':'requests,pygame,pygame_gui,pyttsx3,pywintypes,comtypes,keyboard,wheel,Js2Py,selenium,chromedriver_autoinstaller,html2text,cv2'.split(','),'include_files':['image.jpg',('musics','musics'),('images','images'),('apps','apps')]}},executables=[Executable('os.py',base='Win32GUI')])
 ```
-<img width="0px" src="https://komarev.com/ghpvc/?username=antonkomarev">
