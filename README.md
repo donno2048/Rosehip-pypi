@@ -35,7 +35,10 @@ to start just use:
 
 in the python command line
 ###### (you can open it using `win`+`R` then type `python`)
-If you're using a laptop replace 'pc' with 'laptop'
+
+If you're using a laptop replace 'pc' with 'laptop' or just run:
+
+`rosehip`
 
 ## What can you do with it:
 
