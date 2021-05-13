@@ -12,6 +12,6 @@ setup(
     license='MIT',
     author='Elisha Hollander',
     classifiers=['Operating System :: Microsoft :: Windows','License :: OSI Approved :: MIT License','Programming Language :: Python :: 3'],
-    install_requires='pygame,pyttsx3,pywin32,comtypes,pygame-gui,keyboard,wheel,Js2Py,selenium,chromedriver-autoinstaller,html2text,opencv-python'.split(','),
+    install_requires=['roin'],
     entry_points={ 'console_scripts': [ 'rosehip=Rosehip.__init__:laptop' ] }
 )
