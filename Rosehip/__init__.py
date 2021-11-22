@@ -31,7 +31,7 @@ class OS:
         while running:
             delta = clock.tick(60) / 1000.0;pressed = pygame.key.get_pressed()
             for event in pygame.event.get():
-                if event.type == pygame.KEYDOWN and event.key == pygame.K_HOME and self.APPMENU is None:self.APPMENU = Menu(self.MANAGER,(0, 0),os.path.dirname(os.path.abspath(__file__)) +"/apps",self.APPS,self.appmenu_load,)
+                if event.type == pygame.KEYDOWN and event.key == pygame.K_HOME and self.APPMENU is None:self.APPMENU = Menu(self.MANAGER,(0, 0),os.path.join(os.path.dirname(os.path.abspath(__file__)), "apps"),self.APPS,self.appmenu_load,)
                 elif event.type == pygame.KEYDOWN and event.key == pygame.K_HOME:self.APPMENU.destroy();self.APPMENU = None
                 elif event.type == pygame.KEYDOWN and event.key == pygame.K_INSERT:self.PAINT = not self.PAINT;self.BRUSH_SURF.fill((0, 0, 0, 0))
                 if not event.type == pygame.KEYDOWN and event.type == pygame.MOUSEBUTTONDOWN and self.PAINT and event.button == 4 and  pressed[pygame.K_LALT]:self.PAINT_COLOR = (self.PAINT_COLOR + 1) % len(self.PAINT_COLOR_LIST)
