@@ -1,8 +1,10 @@
-Reliable Operating System by Elisha Hollander Implemented Python
 # Rosehip
-```diff
-- this only works on windows
-```
+
+Reliable Operating System by Elisha Hollander Implemented Python
+
+> **Warning**
+> this only works on windows
+
 the source is [here](https://github.com/donno2048/Rosehip) there is also a [version for linux](https://github.com/donno2048/Rosehip-L), more specifically for ubuntu debian and mint.
 ## How to install it:
 
